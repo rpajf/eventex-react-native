@@ -1,0 +1,9 @@
+import styled from 'styled-components/native';
+import {} from 'react'
+
+export const Container = styled.View`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: ${({theme}) => theme.colors.primary};
+`;
