@@ -64,9 +64,9 @@ export const FieldWrapper = styled.View`
 `;
 
 export const SaveEventData = styled(Button)`
-  margin-top: ${RFValue(25)}px;
+  /* margin-top: ${RFValue(25)}px; */
   background-color: ${({theme}) => theme.colors.purpleSmooth};
   width: ${RFPercentage(55)}px;
-
+  color: #1424;
   border: 0;
 `;

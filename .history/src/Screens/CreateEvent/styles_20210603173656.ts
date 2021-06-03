@@ -1,0 +1,36 @@
+import styled from 'styled-components/native';
+import {
+  View,
+  ImageBackground,
+  ImageBackgroundComponent,
+  Text,
+} from 'react-native';
+import {ScreenMainText} from '../../components/Text';
+import {RFPercentage, RFValue} from 'react-native-responsive-fontsize';
+
+export const Container = styled(View)`
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  background-color: ${props => props.theme.colors.backgroundDark};
+`;
+
+export const Main = styled.View`
+  width: 100%;
+  height: ${RFPercentage(57.5)}px;
+  display: flex;
+  flex-direction: column;
+
+
+  margin-bottom: ${RFValue(75)}px;
+  justify-content: center;
+  align-items: center;
+`;
+export const EventTitle = styled.Text`
+  color: ${props => props.theme.colors.customWhite};
+  font-family: 'Roboto-Medium';
+  letter-spacing: 1px;
+  font-size: 22px;
+  line-height: 22px;
+`;

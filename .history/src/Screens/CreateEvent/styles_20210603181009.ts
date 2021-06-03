@@ -63,10 +63,10 @@ export const FieldWrapper = styled.View`
   align-items: center;
 `;
 
-export const SaveEventData = styled(Button)`
-  margin-top: ${RFValue(25)}px;
+export const CreateEvent = styled(Button)`
+  /* margin-top: ${RFValue(25)}px; */
   background-color: ${({theme}) => theme.colors.purpleSmooth};
-  width: ${RFPercentage(55)}px;
-
+  width: ${RFPercentage(52.5)}px;
+  color: #1424;
   border: 0;
 `;

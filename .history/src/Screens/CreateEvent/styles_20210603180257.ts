@@ -8,7 +8,6 @@ import {
 import {ScreenMainText} from '../../components/Text';
 import {RFPercentage, RFValue} from 'react-native-responsive-fontsize';
 import Input from '../../components/Input';
-import Button from '../../components/Button';
 import {BoldMedium} from '../../components/Text';
 
 export const Container = styled(View)`
@@ -61,12 +60,4 @@ export const InputName = styled(BoldMedium)`
 `;
 export const FieldWrapper = styled.View`
   align-items: center;
-`;
-
-export const SaveEventData = styled(Button)`
-  margin-top: ${RFValue(25)}px;
-  background-color: ${({theme}) => theme.colors.purpleSmooth};
-  width: ${RFPercentage(55)}px;
-
-  border: 0;
 `;

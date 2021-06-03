@@ -37,7 +37,7 @@ const CreateEvent: React.FC<CreateEvent> = ({navigation}) => {
           <InputName>Descrição</InputName>
           <CreateEventInput />
         </FieldWrapper>
-        <SaveEventData>Salvar Evento</SaveEventData>
+      <SaveEventData>Salvar Evento</SaveEventData>
       </Main>
     </Container>
   );

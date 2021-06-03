@@ -11,7 +11,7 @@ export default {
     purpleBright: '#6200ee',
     emptyButtonBorder: '#A5A6F6',
     // lightGray: '#989eb5',
-    lightGray: '#969cb2',
+    lightGray
     smallText: '#0d0d0f',
     secondaryText: 'rgba(13, 13, 15, 0.6)',
     primaryDivider: '',

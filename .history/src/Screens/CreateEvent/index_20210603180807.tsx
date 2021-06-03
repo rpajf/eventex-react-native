@@ -13,7 +13,6 @@ import {
   CreateEventInput,
   FieldWrapper,
   InputName,
-  SaveEventData,
 } from './styles';
 
 export interface CreateEvent {
@@ -34,10 +33,9 @@ const CreateEvent: React.FC<CreateEvent> = ({navigation}) => {
           <CreateEventInput />
         </FieldWrapper>
         <FieldWrapper>
-          <InputName>Descrição</InputName>
+          <InputName>Titulo</InputName>
           <CreateEventInput />
         </FieldWrapper>
-        <SaveEventData>Salvar Evento</SaveEventData>
       </Main>
     </Container>
   );
