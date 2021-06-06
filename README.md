@@ -11,6 +11,10 @@ On other terminal window, at the root directory with the android emulator open, 
 ```
 react-native run-android
 ```
+You can also use the shortcut:
+```
+npx react-native run-android
+```
 ## Usb device
 Connect your device with the USB cable and enable USB debugging option under Settings > Developer Options, after that type on a terminal window:
 ```
