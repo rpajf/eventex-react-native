@@ -1,6 +1,6 @@
 import React from 'react';
 import {TouchableOpacity} from 'react-native';
-import MapView, {Marker} from 'react-native-maps';
+
 import {StackNavigationProp} from '@react-navigation/stack';
 import {StackNavigatorParamsList} from '../../types';
 import MaterialCommunity from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -43,17 +43,21 @@ const CreateEvent: React.FC<CreateEvent> = ({navigation}) => {
           <InputName>Descrição</InputName>
           <CreateEventInput />
         </FieldWrapper>
-        <FieldWrapper>
-          <InputName>
-            Localização
-            <MaterialCommunity name="map-legend" size={25} color="#b5bbd4" />
-          </InputName>
-          <CreateEventInput />
-        </FieldWrapper>
         <SaveEventData>Salvar Evento</SaveEventData>
       </Main>
     </Container>
   );
 };
-
+const styles = StyleSheet.create({
+  container: {
+    ...StyleSheet.absoluteFillObject,
+    height: 400,
+    width: 400,
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+  },
+  map: {
+    ...StyleSheet.absoluteFillObject,
+  },
+ });
 export default CreateEvent;

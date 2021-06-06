@@ -42,13 +42,14 @@ const CreateEvent: React.FC<CreateEvent> = ({navigation}) => {
         <FieldWrapper>
           <InputName>Descrição</InputName>
           <CreateEventInput />
-        </FieldWrapper>
-        <FieldWrapper>
-          <InputName>
-            Localização
-            <MaterialCommunity name="map-legend" size={25} color="#b5bbd4" />
-          </InputName>
-          <CreateEventInput />
+          <MapView>
+            ...
+            <Marker
+              coordinate={{latitude: 33.7872131, longitude: -84.381931}}
+              title="Flatiron School Atlanta"
+              description="This is where the magic happens!"
+            />
+          </MapView>
         </FieldWrapper>
         <SaveEventData>Salvar Evento</SaveEventData>
       </Main>

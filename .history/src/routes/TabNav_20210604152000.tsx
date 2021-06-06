@@ -7,8 +7,12 @@ import {BottomNavigatorParamsList} from '../types';
 
 import Dashboard from '../Screens/Dashboard';
 import SignIn from '../Screens/SignIn';
+import EventPayment from '../Screens/EventPayment';
+import AdmEventScreen from '../Screens/AdmEventScreen';
+import EventInfo from '../Screens/EventInfo';
+import stackNav from './stackNav';
 
-import {StyleSheet, Platform} from 'react-native';
+import {View, Text, TouchableOpacity, StyleSheet, Platform} from 'react-native';
 
 const Tab = createBottomTabNavigator<BottomNavigatorParamsList>();
 
@@ -23,10 +27,19 @@ const Tabs = () => {
         keyboardHidesTabBar: true,
         inactiveTintColor: '#8e8d92c8',
         style: {
+     
           borderTopWidth: 0,
           height: 50,
           paddingBottom: 5,
           backgroundColor: '#3c425f',
+          // backgroundColor: '#9f81cd',
+          // '#302744'
+          // '#1e2630'
+          // backgroundColor: '#4d3c72',
+          // backgroundColor: '#2b3647',
+          // backgroundColor: '#fff',
+          // backgroundColor: '#A5A6F6',
+          // backgroundColor: '#8C52FF',
         },
       }}>
       <Screen

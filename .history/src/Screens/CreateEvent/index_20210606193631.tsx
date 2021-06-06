@@ -44,10 +44,7 @@ const CreateEvent: React.FC<CreateEvent> = ({navigation}) => {
           <CreateEventInput />
         </FieldWrapper>
         <FieldWrapper>
-          <InputName>
-            Localização
-            <MaterialCommunity name="map-legend" size={25} color="#b5bbd4" />
-          </InputName>
+          <InputName>Localização</InputName>
           <CreateEventInput />
         </FieldWrapper>
         <SaveEventData>Salvar Evento</SaveEventData>

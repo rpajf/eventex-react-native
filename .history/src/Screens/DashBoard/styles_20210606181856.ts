@@ -74,6 +74,7 @@ export const EventImg = styled.Image`
   width: ${RFPercentage(25)}px;
   height: ${RFPercentage(30)}px;
   border-radius: 9px;
+  border: 18px solid rgba(0, 0, 0, 0.1);
 
   justify-content: center;
   align-items: center;

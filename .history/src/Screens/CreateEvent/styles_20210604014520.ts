@@ -19,12 +19,7 @@ export const Container = styled(View)`
   padding: ${RFValue(20)}px;
   background-color: ${props => props.theme.colors.backgroundDark};
 `;
-export const Header = styled.View`
-  width: 100%;
-  height: ${RFPercentage(7.5)}px;
-  justify-content: center;
-  margin-left: ${RFValue(40)}px;
-`;
+
 export const ImageWrapper = styled(View)`
   justify-content: center;
   height: ${RFPercentage(22.5)}px;
@@ -55,8 +50,6 @@ export const EventTitle = styled.Text`
 export const CreateEventInput = styled(Input)`
   border-width: 1px;
   width: ${RFPercentage(55)}px;
-  height: ${RFPercentage(7.5)}px;
-
   border-color: ${props => props.theme.colors.lightGray};
   color: ${props => props.theme.colors.customWhite};
   text-align: center;

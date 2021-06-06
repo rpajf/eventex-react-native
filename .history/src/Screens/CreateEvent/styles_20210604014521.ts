@@ -55,8 +55,6 @@ export const EventTitle = styled.Text`
 export const CreateEventInput = styled(Input)`
   border-width: 1px;
   width: ${RFPercentage(55)}px;
-  height: ${RFPercentage(7.5)}px;
-
   border-color: ${props => props.theme.colors.lightGray};
   color: ${props => props.theme.colors.customWhite};
   text-align: center;
