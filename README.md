@@ -54,5 +54,6 @@ The technologies that were used on this project:
 - [React Native Paper](https://callstack.github.io/react-native-paper/)
 </br>
 ##Layout
-![image](https://user-images.githubusercontent.com/28605557/121821242-386bf480-cc6e-11eb-8aee-0f0093f0d2b6.png)
+
+![ScreenShot](https://user-images.githubusercontent.com/28605557/121821242-386bf480-cc6e-11eb-8aee-0f0093f0d2b6.png)
 
