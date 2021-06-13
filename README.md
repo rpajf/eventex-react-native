@@ -1,6 +1,6 @@
 # eventex-react-native
 
-> Status: Developing ⚒️ (this project is only optmized for android at the moment) ⚠️<br />
+### Status: Developing ⚒️ (this project is only optmized for android at the moment) ⚠️<br />
 
 ## 📱Description
 Eventex is  built on react native. You can search for your favorite events, sign on them and even register your own event!
@@ -18,6 +18,7 @@ $ cd eventex-react-native
 $ yarn or npm install
 ```
 ## Android Emulator
+
 At first the app is optimized on android, on a terminal window, at the root directory type:
 ```
 yarn start or npm start
@@ -49,3 +50,4 @@ The technologies that were used on this project:
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Hook Form](https://react-hook-form.com/ts/)
 - [React Navigation](https://reactnavigation.org/docs/getting-started/)
+- [React Native Paper](https://callstack.github.io/react-native-paper/)
