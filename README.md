@@ -18,6 +18,7 @@ $ cd eventex-react-native
 $ yarn or npm install
 ```
 ## Android Emulator
+To start emulating your projects on a virtual android device acess https://developer.android.com/studio
 
 At first the app is optimized on android, on a terminal window, at the root directory type:
 ```
