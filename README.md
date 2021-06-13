@@ -1,6 +1,6 @@
 # eventex-react-native
 
-> Status: Developing ⚠️
+> Status: Developing ⚠️<br />
 Eventex is  built on react native. You can search for your favorite events and register your own event
 
 ## Android Emulator
