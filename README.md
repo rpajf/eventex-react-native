@@ -52,4 +52,4 @@ The technologies that were used on this project:
 - [React Hook Form](https://react-hook-form.com/ts/)
 - [React Navigation](https://reactnavigation.org/docs/getting-started/)
 - [React Native Paper](https://callstack.github.io/react-native-paper/)
-![image](https://user-images.githubusercontent.com/28605557/121820577-0ce70b00-cc6a-11eb-99ec-1adcee0da891.png)
+
