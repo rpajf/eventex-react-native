@@ -65,7 +65,7 @@ const Dashboard: React.FC<DashboardProps> = ({navigation}) => {
         </NavSection>
 
         <ShowEventsWrapper>
-          <EventTypeText>Most accessed events</EventTypeText>
+          <EventTypeText>Eventos mais acessados</EventTypeText>
 
           <View
             style={{
@@ -95,7 +95,7 @@ const Dashboard: React.FC<DashboardProps> = ({navigation}) => {
                   <EventImg
                     source={require('../../assets/img/reading-event.png')}
                   />
-                  <ImgInfo>Motivacional speech</ImgInfo>
+                  <ImgInfo>Palestra motivacional</ImgInfo>
                 </View>
               </TouchableOpacity>
               <View
@@ -106,7 +106,7 @@ const Dashboard: React.FC<DashboardProps> = ({navigation}) => {
                 <EventImg
                   source={require('../../assets/img/university-event.png')}
                 />
-                <ImgInfo>Exchange program</ImgInfo>
+                <ImgInfo>Ciencias sem fronteira</ImgInfo>
               </View>
               <View
                 style={{
@@ -120,7 +120,7 @@ const Dashboard: React.FC<DashboardProps> = ({navigation}) => {
           </View>
         </ShowEventsWrapper>
         <SignInButton onPress={() => navigation.navigate('SignIn')}>
-          Sign in
+          Fazer Cadastro
         </SignInButton>
       </Container>
     </KeyboardAvoidingView>

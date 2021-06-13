@@ -1,13 +1,21 @@
-import { StackNavigationProp } from '@react-navigation/stack';
 import React from 'react';
-import { TouchableOpacity } from 'react-native';
+import {TouchableOpacity} from 'react-native';
+import MapView, {Marker} from 'react-native-maps';
+import {StackNavigationProp} from '@react-navigation/stack';
+import {StackNavigatorParamsList} from '../../types';
 import MaterialCommunity from 'react-native-vector-icons/MaterialCommunityIcons';
-import { StackNavigatorParamsList } from '../../types';
-import {
-  Container, CreateEventInput,
-  FieldWrapper, ImageWrapper, InputName, Main, SaveEventData
-} from './styles';
 
+import {
+  Container,
+  ImageHeader,
+  EventTitle,
+  ImageWrapper,
+  Main,
+  CreateEventInput,
+  FieldWrapper,
+  InputName,
+  SaveEventData,
+} from './styles';
 
 export interface CreateEvent {
   navigation: StackNavigationProp<StackNavigatorParamsList, 'CreateEvent'>;

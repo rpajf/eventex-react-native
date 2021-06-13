@@ -95,7 +95,7 @@ const Dashboard: React.FC<DashboardProps> = ({navigation}) => {
                   <EventImg
                     source={require('../../assets/img/reading-event.png')}
                   />
-                  <ImgInfo>Motivacional speech</ImgInfo>
+                  <ImgInfo>Motivacional spe</ImgInfo>
                 </View>
               </TouchableOpacity>
               <View
@@ -120,7 +120,7 @@ const Dashboard: React.FC<DashboardProps> = ({navigation}) => {
           </View>
         </ShowEventsWrapper>
         <SignInButton onPress={() => navigation.navigate('SignIn')}>
-          Sign in
+          Fazer Cadastro
         </SignInButton>
       </Container>
     </KeyboardAvoidingView>

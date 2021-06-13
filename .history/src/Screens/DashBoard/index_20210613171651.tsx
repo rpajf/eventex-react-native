@@ -120,7 +120,7 @@ const Dashboard: React.FC<DashboardProps> = ({navigation}) => {
           </View>
         </ShowEventsWrapper>
         <SignInButton onPress={() => navigation.navigate('SignIn')}>
-          Sign in
+          Fazer Cadastro
         </SignInButton>
       </Container>
     </KeyboardAvoidingView>
